@@ -18,7 +18,7 @@ public class GcmBroadcastReceiver extends BroadcastReceiver {
 
         Bundle bundle = intent.getBundleExtra("bundle");
 
-        Intent newIntent = new Intent(context, BackgroundService.class);
+        Intent newIntent = new Intent(context, BozBackgroundService.class);
         newIntent.putExtra("bundle", bundle);
         context.startService(newIntent);
         abortBroadcast();

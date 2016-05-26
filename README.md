@@ -8,7 +8,7 @@ https://github.com/oney/TestGcm
 
 ## Installation
 
-- Run `npm install react-native-gcm-android --save`
+- Run `npm install https://github.com/ajaxangular/react-native-gcm-android --save`
 
 - In `android/build.gradle`
 ```gradle
